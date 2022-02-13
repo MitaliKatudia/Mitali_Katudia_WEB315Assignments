@@ -15634,8 +15634,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\TheUnoBooks\\Pages\\Books\\Create.cshtml",
+      "TargetPath": "Pages\\Books\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\TheUnoBooks\\Pages\\Books\\Details.cshtml",
+      "TargetPath": "Pages\\Books\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\TheUnoBooks\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\TheUnoBooks\\Pages\\Books\\Edit.cshtml",
+      "TargetPath": "Pages\\Books\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\TheUnoBooks\\Pages\\Books\\Delete.cshtml",
+      "TargetPath": "Pages\\Books\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15651,6 +15671,11 @@
     {
       "FilePath": "c:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\TheUnoBooks\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\TheUnoBooks\\Pages\\Books\\Index.cshtml",
+      "TargetPath": "Pages\\Books\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
