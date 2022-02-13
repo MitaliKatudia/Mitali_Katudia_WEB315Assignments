@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TheUnoBooks.Models;
 
+namespace TheUnoBooks.Data
+{
     public class TheUnoBooksContext : DbContext
     {
         public TheUnoBooksContext (DbContextOptions<TheUnoBooksContext> options)
@@ -14,3 +16,4 @@ using TheUnoBooks.Models;
 
         public DbSet<TheUnoBooks.Models.Book> Book { get; set; }
     }
+}

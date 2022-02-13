@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using TheUnoBooks.Models;
+using TheUnoBooks.Data;
 
 namespace TheUnoBooks.Pages_Books
 {

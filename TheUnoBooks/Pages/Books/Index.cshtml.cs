@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using TheUnoBooks.Models;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace TheUnoBooks.Pages_Books
 {
     public class IndexModel : PageModel
     {
         private readonly TheUnoBooks.Data.TheUnoBooksContext _context;
+
         public IndexModel(TheUnoBooks.Data.TheUnoBooksContext context)
         {
             _context = context;
