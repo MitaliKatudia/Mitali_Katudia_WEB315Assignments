@@ -27,3 +27,7 @@ Entered a book entry inside the https://localhost:5001/Books link,
 added "Microsoft.EntityFrameworkCore.Database.Command": "Information" in the appsettings.Development.json file 
 
 There was error in the index.cshtml.cs file at line 16 and 17. An assembly reference was missing which meant the namespace was missing in the  TheUnoBooksContext.cs file in the Data folder. Had to add namespace TheUnoBooks.Data and then add the using TheUnoBooks.Data; in every file which was using the database.
+
+Seeding the Data - 
+Created a file named SeedData in the Models folder and did the changes. Added Data content in the syntax
+Replaced content of Program.cs and changed the namespace names.  
