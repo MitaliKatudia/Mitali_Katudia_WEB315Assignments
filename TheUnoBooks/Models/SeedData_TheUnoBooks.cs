@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace TheUnoBooks.Models
 {
-    public static class SeedData
+    public static class SeedData_TheUnoBooks
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
