@@ -14,7 +14,7 @@ namespace TheUnoBooks.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<TheUnoBooksContext>>()))
             {
-                // Look for any movies.
+                // Look for any books.
                 if (context.Book.Any())
                 {
                     return;   // DB has been seeded
