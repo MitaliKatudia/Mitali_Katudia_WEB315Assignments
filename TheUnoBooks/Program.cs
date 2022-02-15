@@ -19,7 +19,7 @@ namespace TheUnoBooks
 
                 try
                 {
-                    SeedData.Initialize(services);
+                    SeedData_TheUnoBooks.Initialize(services);
                 }
                 catch (Exception ex)
                 {

@@ -29,5 +29,10 @@ added "Microsoft.EntityFrameworkCore.Database.Command": "Information" in the app
 There was error in the index.cshtml.cs file at line 16 and 17. An assembly reference was missing which meant the namespace was missing in the  TheUnoBooksContext.cs file in the Data folder. Had to add namespace TheUnoBooks.Data and then add the using TheUnoBooks.Data; in every file which was using the database.
 
 Seeding the Data - 
-Created a file named SeedData in the Models folder and did the changes. Added Data content in the syntax
+Created a file named SeedData_TheUnoBooks in the Models folder and did the changes. Added Data content in the syntax
 Replaced content of Program.cs and changed the namespace names.  
+Faced an error in running the program, the namespaces were different in both files.
+Ran the program and deleted the previously created data in the site.
+Shut and restarted the program and all the data were present.
+
+Updated the _Layout.cshtml file with adding a link named 'BooksList'
