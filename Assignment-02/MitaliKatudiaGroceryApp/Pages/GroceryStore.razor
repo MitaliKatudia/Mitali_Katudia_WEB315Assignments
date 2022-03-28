@@ -1,0 +1,146 @@
+﻿@page "/GroceryStore"
+
+
+@if (groceryIsle.Count != 0)
+{
+    <h3>GroceryStore</h3>
+}
+
+<ul>
+    @if (groceryIsle.Count == 0)
+    {
+        <button class="btn btn-primary" @onclick="AddProducts">Add Products</button><br><br>
+    }
+    @foreach (var GroceryIsle in groceryIsle)
+    {
+        <li><button class="btn btn-default" @onclick="() =>items=GetItems(GroceryIsle.isleNumber)">@GroceryIsle.isleName</button></li>
+    } 
+
+    <br><br>
+    <h3>@currentIsle</h3>
+
+    <br><br>
+    @if (groceryIsle.Count != 0)
+    {
+        <table class="table">
+            <tr>
+                <th>Item Name</th>
+                <th>Weight (in Lbs)</th>
+                <th>Price</th>
+                <th>Quantity Packed</th>
+                <th>Quantity Required</th>
+
+            </tr>
+            @foreach (var GroceryItem in items)
+            {
+                <tr>
+                    <td>@GroceryItem.ItemName</td>
+                    <td>@GroceryItem.WeightInLb</td>
+                    <td>@GroceryItem.ItemPrice</td>
+                    <td>@GroceryItem.Quantity</td>
+                    <td><button class="btn btn-default" @onclick="() => GroceryItem.DescreaseQuantity()">-</button>  
+                    @GroceryItem.Quantity<button class="btn btn-default"
+                    @onclick="() => GroceryItem.IncreaseQuantity()">+</button></td>
+                </tr>
+            }
+        </table>
+    }
+
+</ul>  
+
+@code {
+
+    private List<GroceryIsle> groceryIsle = new List<GroceryIsle>();
+    private List<FoodItem> items = new List<FoodItem>();
+    private string currentIsle = "";
+
+    private void AddProducts()
+    {
+        Console.Write("worked");
+        GroceryIsle isle1 = new GroceryIsle();
+        isle1.isleNumber = 1;
+        isle1.isleName = "Bakery";
+        isle1.ItemList.Add(new FoodItem
+        {
+            Quantity = 1,
+            ItemName = "Chocolate Cake",
+            WeightInLb = "1 lb",
+            ItemPrice = 25
+        });
+        isle1.ItemList.Add(new FoodItem
+        {
+            Quantity = 1,
+            ItemName = "Pineapple Cake",
+            WeightInLb = "1 lb",
+            ItemPrice = 18
+        });
+        isle1.ItemList.Add(new FoodItem
+        {
+            Quantity = 1,
+            ItemName = "Caramel Cake",
+            WeightInLb = "1 lb",
+            ItemPrice = 20
+        });
+
+        GroceryIsle isle2 = new GroceryIsle();
+        isle2.isleNumber = 2;
+        isle2.isleName = "Drinks";
+        isle2.ItemList.Add(new FoodItem
+        {
+            Quantity = 6,
+            ItemName = "Coca Cola",
+            WeightInLb = "1/2 lb each Can",
+            ItemPrice = 5.99
+        });
+        isle2.ItemList.Add(new FoodItem
+        {
+            Quantity = 6,
+            ItemName = "Diet Coke",
+            WeightInLb = "1/2 lb each Can",
+            ItemPrice = 4.99
+        });
+        isle2.ItemList.Add(new FoodItem
+        {
+            Quantity = 10,
+            ItemName = "Crush Orange",
+            WeightInLb = "1/2 lb each Can",
+            ItemPrice = 4.49
+        });
+
+
+        GroceryIsle isle3 = new GroceryIsle();
+        isle3.isleName = "Snacks";
+        isle3.isleNumber = 3;
+        isle3.ItemList.Add(new FoodItem
+        {
+            Quantity = 1,
+            ItemName = "Lays",
+            WeightInLb = "1 lb",
+            ItemPrice = 2.99
+        });
+        isle3.ItemList.Add(new FoodItem
+        {
+            Quantity = 1,
+            ItemName = " Chocolate Cookies",
+            WeightInLb = "1 lb",
+            ItemPrice = 3.99
+        });
+
+        groceryIsle.Add(isle1);
+        groceryIsle.Add(isle2);
+        groceryIsle.Add(isle3);
+    }
+
+    private List<FoodItem> GetItems(int isleNumber)
+    {
+        foreach (var GroceryIsle in groceryIsle)
+        {
+            if (GroceryIsle.isleNumber == isleNumber)
+            {
+                currentIsle = GroceryIsle.isleName;
+                return GroceryIsle.ItemList;
+            }
+        }
+        return new List<FoodItem>();
+    }
+}
