@@ -1,10 +1,11 @@
 ﻿@page "/GroceryStore"
 
-
+<h1>Welcome to the Grocery Store App</h1>
 @if (groceryIsle.Count != 0)
 {
-    <h3>GroceryStore</h3>
+    <h3>Add food items to an Isle</h3>
 }
+
 
 <ul>
     @if (groceryIsle.Count == 0)
@@ -56,7 +57,7 @@
 
     private void AddProducts()
     {
-        Console.Write("worked");
+        //Console.Write("created");
         GroceryIsle isle1 = new GroceryIsle();
         isle1.isleNumber = 1;
         isle1.isleName = "Bakery";
@@ -101,7 +102,7 @@
         });
         isle2.ItemList.Add(new FoodItem
         {
-            Quantity = 10,
+            Quantity = 6,
             ItemName = "Crush Orange",
             WeightInLb = "1/2 lb each Can",
             ItemPrice = 4.49
@@ -120,7 +121,7 @@
         });
         isle3.ItemList.Add(new FoodItem
         {
-            Quantity = 1,
+            Quantity = 6,
             ItemName = " Chocolate Cookies",
             WeightInLb = "1 lb",
             ItemPrice = 3.99
@@ -143,4 +144,5 @@
         }
         return new List<FoodItem>();
     }
+    
 }

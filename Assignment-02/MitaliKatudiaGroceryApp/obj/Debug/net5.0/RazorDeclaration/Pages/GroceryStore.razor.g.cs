@@ -91,7 +91,7 @@ using MitaliKatudiaGroceryApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 51 "C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-02\MitaliKatudiaGroceryApp\Pages\GroceryStore.razor"
+#line 52 "C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-02\MitaliKatudiaGroceryApp\Pages\GroceryStore.razor"
        
 
     private List<GroceryIsle> groceryIsle = new List<GroceryIsle>();
@@ -100,7 +100,7 @@ using MitaliKatudiaGroceryApp.Shared;
 
     private void AddProducts()
     {
-        Console.Write("worked");
+        //Console.Write("created");
         GroceryIsle isle1 = new GroceryIsle();
         isle1.isleNumber = 1;
         isle1.isleName = "Bakery";
@@ -145,7 +145,7 @@ using MitaliKatudiaGroceryApp.Shared;
         });
         isle2.ItemList.Add(new FoodItem
         {
-            Quantity = 10,
+            Quantity = 6,
             ItemName = "Crush Orange",
             WeightInLb = "1/2 lb each Can",
             ItemPrice = 4.49
@@ -164,7 +164,7 @@ using MitaliKatudiaGroceryApp.Shared;
         });
         isle3.ItemList.Add(new FoodItem
         {
-            Quantity = 1,
+            Quantity = 6,
             ItemName = " Chocolate Cookies",
             WeightInLb = "1 lb",
             ItemPrice = 3.99
@@ -187,6 +187,7 @@ using MitaliKatudiaGroceryApp.Shared;
         }
         return new List<FoodItem>();
     }
+    
 
 #line default
 #line hidden
