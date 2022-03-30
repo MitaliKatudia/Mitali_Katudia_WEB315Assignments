@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": -1499522618,
-        "Kind": "Components.Component",
-        "Name": "MitaliKatudiaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "MitaliKatudiaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MitaliKatudiaGroceryApp.Pages.GroceryStore"
-        }
-      },
-      {
-        "HashCode": 1750357021,
-        "Kind": "Components.Component",
-        "Name": "MitaliKatudiaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "MitaliKatudiaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MitaliKatudiaGroceryApp.Pages.GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MitaliKatudiaGroceryApp.Pages.GroceryStore",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -743320372,
         "Kind": "Components.Component",
         "Name": "MitaliKatudiaGroceryApp.Pages.Index",
