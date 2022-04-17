@@ -9,5 +9,10 @@ namespace MitaliKatudiaChat.Server.Hubs
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
+
+         public Task SendMessageToOthers(string user)
+        {
+            return Clients.Others.SendAsync( user, "isTypingSomething");
+        }
     }
 }

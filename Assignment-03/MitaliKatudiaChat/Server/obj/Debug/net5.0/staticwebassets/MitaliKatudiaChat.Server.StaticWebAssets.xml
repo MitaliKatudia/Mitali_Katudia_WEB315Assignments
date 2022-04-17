@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-03\MitaliKatudiaChat\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-03\MitaliKatudiaChat\Client\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="/" Path="C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-03\MitaliKatudiaChat\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-03\MitalikatudiaChat\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-03\MitalikatudiaChat\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Semester 2\ASP.Net\Mitali_Katudia_WEB315Assignments\Assignment-03\MitalikatudiaChat\Client\wwwroot\" />
 </StaticWebAssets>

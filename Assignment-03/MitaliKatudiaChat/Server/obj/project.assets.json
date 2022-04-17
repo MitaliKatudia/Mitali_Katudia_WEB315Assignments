@@ -1172,11 +1172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitaliKatudiaChat\\Server\\MitaliKatudiaChat.Server.csproj",
+      "projectUniqueName": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitalikatudiaChat\\Server\\MitaliKatudiaChat.Server.csproj",
       "projectName": "MitaliKatudiaChat.Server",
-      "projectPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitaliKatudiaChat\\Server\\MitaliKatudiaChat.Server.csproj",
+      "projectPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitalikatudiaChat\\Server\\MitaliKatudiaChat.Server.csproj",
       "packagesPath": "C:\\Users\\mital\\.nuget\\packages\\",
-      "outputPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitaliKatudiaChat\\Server\\obj\\",
+      "outputPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitalikatudiaChat\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mital\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1191,11 +1191,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitaliKatudiaChat\\Client\\MitaliKatudiaChat.Client.csproj": {
-              "projectPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitaliKatudiaChat\\Client\\MitaliKatudiaChat.Client.csproj"
+            "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitalikatudiaChat\\Client\\MitaliKatudiaChat.Client.csproj": {
+              "projectPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitalikatudiaChat\\Client\\MitaliKatudiaChat.Client.csproj"
             },
-            "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitaliKatudiaChat\\Shared\\MitaliKatudiaChat.Shared.csproj": {
-              "projectPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitaliKatudiaChat\\Shared\\MitaliKatudiaChat.Shared.csproj"
+            "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitalikatudiaChat\\Shared\\MitaliKatudiaChat.Shared.csproj": {
+              "projectPath": "C:\\Semester 2\\ASP.Net\\Mitali_Katudia_WEB315Assignments\\Assignment-03\\MitalikatudiaChat\\Shared\\MitaliKatudiaChat.Shared.csproj"
             }
           }
         }

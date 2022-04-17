@@ -3927,39 +3927,6 @@
         }
       },
       {
-        "HashCode": 1749780755,
-        "Kind": "Components.Component",
-        "Name": "MitaliKatudiaChat.Client.App",
-        "AssemblyName": "MitaliKatudiaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MitaliKatudiaChat.Client.App"
-        }
-      },
-      {
-        "HashCode": 209461675,
-        "Kind": "Components.Component",
-        "Name": "MitaliKatudiaChat.Client.App",
-        "AssemblyName": "MitaliKatudiaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MitaliKatudiaChat.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MitaliKatudiaChat.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1698179043,
         "Kind": "Components.Component",
         "Name": "MitaliKatudiaChat.Client.Pages.Counter",
@@ -4270,6 +4237,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MitaliKatudiaChat.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1749780755,
+        "Kind": "Components.Component",
+        "Name": "MitaliKatudiaChat.Client.App",
+        "AssemblyName": "MitaliKatudiaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MitaliKatudiaChat.Client.App"
+        }
+      },
+      {
+        "HashCode": 209461675,
+        "Kind": "Components.Component",
+        "Name": "MitaliKatudiaChat.Client.App",
+        "AssemblyName": "MitaliKatudiaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MitaliKatudiaChat.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MitaliKatudiaChat.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

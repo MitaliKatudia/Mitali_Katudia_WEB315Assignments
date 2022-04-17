@@ -1,0 +1,10 @@
+ul#messagesList {
+    color: purple;
+    list-style-type: square;
+}
+
+.hiddenMessage {
+    color: red;
+	display: inline;
+	font-size: 1.2em;
+}
